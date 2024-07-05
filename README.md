@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# Buy Me A Coffee
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Technology Used
 
-Try running some of the following tasks:
+- Solidity
+- Hardhat
+- Ethers.js
+- Alchemy
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Set Up
+// npm install
+// Create .env
+// Add GOERLI_URL, GOERLI_API_KEY and PRIVATE_KEY in .env file
+// Test your contract
+// npx hardhat run scripts/buy-coffee.js
+// npx hardhat run scripts/deploy.js
+// DEploy ypur smart contract
+// npx hardhat run scripts/deploy.js --network goerli
+
+
+
